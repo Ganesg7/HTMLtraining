@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets New</title>
+    <Style>
+        body{
+            background-color: black;
+        }
+        input{
+            border: none;
+            border-bottom: 1px solid black;
+        }
+        .payment{
+            position: relative;
+            left: 400px;
+     
+            border: 1px solid blue;
+            background-color: white;
+            width: 500px;
+            height: 550px;
+        }
+
+        button{
+            border: 1px solid white;
+            border-radius: 50px;
+            color: white;
+	background-color: red;
+    font-size: large;
+}
+button:hover{
+	background-color: green;
+    color:  black;
+	font-weight: bold;
+}
+    </Style>
+</head>
+<body>
+    
+ <!--For Logo-->
+ <img src="https://cdn3.ticketnew.com/tn/tn_logo/tn-logo-01.svg" alt="show image" style="width: 120px;">
+ <!-- for Location selector-->
+ <select name="location" id="location" style="width: 130px;position: relative; top:-15px; border: none; border-bottom: solid 1px blue;" >
+    <option style="opacity: 50%;">&#128269 Search</option>
+     <option value="Chennai">Chennai</option>
+     <option value="Madurai">Madurai</option>
+     <option value="Virudhunagar">Virudhunagar</option>
+     <option value="Covai">Covai</option>
+     <option value="Trichy">Trichy</option>
+ </select>
+<!--Home & login Page Link-->
+ <Strong style="position: relative; top:-13px; left:20px;">Home</Strong>
+ <strong><a href="index.html" style="position: relative; left:800px;top: -10px; text-decoration: none;" >Log Out</a></strong>
+ <hr>
+
+ <div class="payment">
+     <b style="position: relative; left: 140px; top: 10px; font-size: large;">
+Total payable Amount &nbsp;&nbsp;<span style="color: green;">260 </span> &#8377;</b>
+<details style="position: relative ;left: 50px; top: 1px;">
+    <summary><img src="https://stardigitalmoney.in/wp-content/uploads/2021/07/upi.png" style="height: 50px; position: relative; top: 15px;"> &nbsp; UPI</summary>
+  
+    <ul type="none">
+        <li> <img src="https://1000logos.net/wp-content/uploads/2020/04/Google-Pay-Logo.png" style="height: 40px; position: relative; top: 15px;"> Google Pay
+        <hr style="width: 200px; position: relative; right: 65px;"></li>
+        <li> <img src="https://download.logo.wine/logo/Paytm/Paytm-Logo.wine.png" style="height: 40px; position: relative; top: 15px;"> Paytm
+        <hr style="width: 200px; position: relative; right: 65px;"></li>
+        <li> <img src="https://play-lh.googleusercontent.com/6iyA2zVz5PyyMjK5SIxdUhrb7oh9cYVXJ93q6DZkmx07Er1o90PXYeo6mzL4VC2Gj9s" style="height: 40px; border-radius: 50%; position: relative; top: 15px;"> &nbsp;&nbsp;&nbsp;&nbsp; PhonePe
+            <hr style="width: 200px; position: relative; right: 65px;"></li>
+    </ul>
+</details>  
+<br>  
+<details style="position: relative ;left: 50px;top: 10px;">
+    <summary> <img src="https://uxwing.com/wp-content/themes/uxwing/download/42-business-professional-services/debit-card.png" style="height: 25px; position: relative; top: 5px;"> &nbsp; Debit/Credit Card</summary>
+    <form> 
+    <br>
+        <input type="number" placeholder="Card Number"> <br> <br>
+        <input type="" placeholder="Expiry Date"> <input type="number" placeholder="CVV"> <br> <br>
+        <input type="text" placeholder="Card Holder Name">
+        <br> <br> <input type="checkbox" checked> &nbsp; QuikPay 
+        <samp>Save this Card information to my MyMovieTickets <br> account and make faster payments</samp>
+        
+    </form>
+</details>
+
+<a href="complete.html"> <button type="submit" style="position: relative ;left: 200px; top: 15px; width: 100px; height: 30px; ">Pay</button></a>
+
+ </div>
+</body>
+</html>
